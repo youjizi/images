@@ -1,9 +1,84 @@
-<mxfile host="app.diagrams.net" modified="2023-10-31T00:52:12.828Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" version="22.0.8" etag="APzQYxpUFMPWw7mAKtzb" type="github">
+<mxfile host="app.diagrams.net" modified="2023-10-31T12:03:29.682Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="srQ_Z2egmj-BuZKcHpni" version="22.0.8" type="github">
   <diagram name="第 1 页" id="9FvJahLJONWX5p6Ms0cg">
-    <mxGraphModel>
+    <mxGraphModel dx="989" dy="521" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="VsCAnLCTNKdbVab-JTR_-13" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="810" y="280" width="180" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="VsCAnLCTNKdbVab-JTR_-10" value="***repository" style="shape=folder;fontStyle=1;spacingTop=10;tabWidth=40;tabHeight=14;tabPosition=left;html=1;whiteSpace=wrap;" vertex="1" parent="VsCAnLCTNKdbVab-JTR_-13">
+          <mxGeometry width="180" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="VsCAnLCTNKdbVab-JTR_-11" value="持久层" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="VsCAnLCTNKdbVab-JTR_-13">
+          <mxGeometry x="2" y="12" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="VsCAnLCTNKdbVab-JTR_-14" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="170" y="280" width="180" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="VsCAnLCTNKdbVab-JTR_-7" value="controller" style="shape=folder;fontStyle=1;spacingTop=10;tabWidth=40;tabHeight=14;tabPosition=left;html=1;whiteSpace=wrap;" vertex="1" parent="VsCAnLCTNKdbVab-JTR_-14">
+          <mxGeometry width="180" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="VsCAnLCTNKdbVab-JTR_-12" value="表现层" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="VsCAnLCTNKdbVab-JTR_-14">
+          <mxGeometry y="13" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="VsCAnLCTNKdbVab-JTR_-15" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="490" y="280" width="180" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="VsCAnLCTNKdbVab-JTR_-8" value="***service" style="shape=folder;fontStyle=1;spacingTop=10;tabWidth=40;tabHeight=14;tabPosition=left;html=1;whiteSpace=wrap;" vertex="1" parent="VsCAnLCTNKdbVab-JTR_-15">
+          <mxGeometry width="180" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="VsCAnLCTNKdbVab-JTR_-9" value="逻辑层" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;container=1;" vertex="1" parent="VsCAnLCTNKdbVab-JTR_-15">
+          <mxGeometry y="10" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="VsCAnLCTNKdbVab-JTR_-21" value="IGoodsServiceImpl" style="whiteSpace=wrap;html=1;fontStyle=1;spacingTop=10;" vertex="1" parent="1">
+          <mxGeometry x="430" y="520" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="VsCAnLCTNKdbVab-JTR_-22" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="VsCAnLCTNKdbVab-JTR_-8" target="VsCAnLCTNKdbVab-JTR_-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VsCAnLCTNKdbVab-JTR_-23" value="依赖" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;entryX=0.013;entryY=0.624;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1.017;exitY=0.612;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="VsCAnLCTNKdbVab-JTR_-8" target="VsCAnLCTNKdbVab-JTR_-10">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="510" y="360" as="sourcePoint" />
+            <mxPoint x="670" y="360" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VsCAnLCTNKdbVab-JTR_-26" value="依赖" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;exitX=1;exitY=0.667;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="VsCAnLCTNKdbVab-JTR_-7">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="510" y="360" as="sourcePoint" />
+            <mxPoint x="490" y="360" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VsCAnLCTNKdbVab-JTR_-27" value="IOrderServiceImpl" style="whiteSpace=wrap;html=1;fontStyle=1;spacingTop=10;" vertex="1" parent="1">
+          <mxGeometry x="579" y="520" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="VsCAnLCTNKdbVab-JTR_-28" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="VsCAnLCTNKdbVab-JTR_-8" target="VsCAnLCTNKdbVab-JTR_-27">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="590" y="410" as="sourcePoint" />
+            <mxPoint x="500" y="530" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VsCAnLCTNKdbVab-JTR_-31" value="IGoodsRepositoryImpl" style="whiteSpace=wrap;html=1;fontStyle=1;spacingTop=10;" vertex="1" parent="1">
+          <mxGeometry x="780" y="520" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="VsCAnLCTNKdbVab-JTR_-32" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" target="VsCAnLCTNKdbVab-JTR_-31">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="930" y="400" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="930" y="460" />
+              <mxPoint x="840" y="460" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VsCAnLCTNKdbVab-JTR_-33" value="IOrderRepositoryImpl" style="whiteSpace=wrap;html=1;fontStyle=1;spacingTop=10;" vertex="1" parent="1">
+          <mxGeometry x="929" y="520" width="161" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="VsCAnLCTNKdbVab-JTR_-34" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" target="VsCAnLCTNKdbVab-JTR_-33">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="930" y="400" as="sourcePoint" />
+            <mxPoint x="850" y="530" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
