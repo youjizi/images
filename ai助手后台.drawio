@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-12-02T11:31:21.759Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="unyzyTpKJTtJ6qza1u35" version="22.1.5" type="github">
+<mxfile host="app.diagrams.net" modified="2023-12-02T11:45:16.528Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="2WE3-QDVv2bUuMB5yeMF" version="22.1.5" type="github">
   <diagram name="第 1 页" id="JHLz7psbimozCQ6AW1Iy">
-    <mxGraphModel dx="795" dy="480" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="658" dy="397" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -63,11 +63,10 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="rCxeOb0W2HEs7AeKYVfM-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;" edge="1" parent="1" source="rCxeOb0W2HEs7AeKYVfM-3" target="rCxeOb0W2HEs7AeKYVfM-26">
+        <mxCell id="rCxeOb0W2HEs7AeKYVfM-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;" edge="1" parent="1" source="rCxeOb0W2HEs7AeKYVfM-3" target="rCxeOb0W2HEs7AeKYVfM-34">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="550" y="520" />
-              <mxPoint x="640" y="520" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -109,7 +108,7 @@
         <mxCell id="rCxeOb0W2HEs7AeKYVfM-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=none;endFill=0;" edge="1" parent="1" source="rCxeOb0W2HEs7AeKYVfM-11" target="rCxeOb0W2HEs7AeKYVfM-14">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="rCxeOb0W2HEs7AeKYVfM-11" value="规则领域" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;gradientColor=#7ea6e0;strokeColor=#6c8ebf;direction=west;" vertex="1" parent="1">
+        <mxCell id="rCxeOb0W2HEs7AeKYVfM-11" value="规则子域" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;gradientColor=#7ea6e0;strokeColor=#6c8ebf;direction=west;" vertex="1" parent="1">
           <mxGeometry x="160" y="545" width="80" height="40" as="geometry" />
         </mxCell>
         <mxCell id="rCxeOb0W2HEs7AeKYVfM-14" value="规&lt;br&gt;则&lt;br&gt;过&lt;br&gt;滤" style="rounded=1;whiteSpace=wrap;html=1;direction=south;fillColor=#dae8fc;gradientColor=#7ea6e0;strokeColor=#6c8ebf;gradientDirection=east;" vertex="1" parent="1">
@@ -134,7 +133,7 @@
           <mxGeometry x="570" y="582" width="40" height="120" as="geometry" />
         </mxCell>
         <mxCell id="rCxeOb0W2HEs7AeKYVfM-26" value="商&lt;br&gt;品&lt;br&gt;列&lt;br&gt;表" style="rounded=1;whiteSpace=wrap;html=1;direction=south;fillColor=#dae8fc;gradientColor=#7ea6e0;strokeColor=#6c8ebf;gradientDirection=east;" vertex="1" parent="1">
-          <mxGeometry x="620" y="582" width="40" height="120" as="geometry" />
+          <mxGeometry x="630" y="582" width="40" height="120" as="geometry" />
         </mxCell>
         <mxCell id="rCxeOb0W2HEs7AeKYVfM-31" value="身&lt;br&gt;份&lt;br&gt;记&lt;br&gt;录" style="rounded=1;whiteSpace=wrap;html=1;direction=south;fillColor=#dae8fc;gradientColor=#7ea6e0;strokeColor=#6c8ebf;gradientDirection=east;" vertex="1" parent="1">
           <mxGeometry x="410" y="580" width="40" height="120" as="geometry" />
@@ -143,6 +142,12 @@
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="385" y="580" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="rCxeOb0W2HEs7AeKYVfM-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=none;endFill=0;" edge="1" parent="1" source="rCxeOb0W2HEs7AeKYVfM-34" target="rCxeOb0W2HEs7AeKYVfM-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rCxeOb0W2HEs7AeKYVfM-34" value="商品子域" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;gradientColor=#7ea6e0;strokeColor=#6c8ebf;direction=west;" vertex="1" parent="1">
+          <mxGeometry x="610" y="505" width="80" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
